@@ -47,6 +47,51 @@ table {
 
 /* Available in 400 or 500 font-weight only */
 /**
+ * General colors:
+**/
+/**
+ * Block: .header-main
+ *
+ * 1. Prefer inline-block and vertical-align, but causes infamous spacing
+ *    issues that are easier to overcome with float.
+**/
+.header-main {
+  background-color: #2f3238;
+  color: #a9b4c9;
+  font-size: 0.9375em;
+  height: 90px;
+  line-height: 90px;
+  padding: 0 38px; }
+  .header-main a {
+    color: #a9b4c9;
+    font-weight: 500; }
+    .header-main a:hover {
+      color: white; }
+
+.header-main-logo {
+  float: left;
+  /* 1 */
+  margin-top: 28px; }
+
+.header-main-logo-text {
+  color: white;
+  float: left;
+  font-size: 1.5rem;
+  margin-left: 13px; }
+  .header-main-logo-text span {
+    color: #fa7777; }
+
+.header-main-nav {
+  float: right; }
+  .header-main-nav li {
+    display: inline-block;
+    margin-right: 34px; }
+    .header-main-nav li:last-child {
+      margin-right: 0; }
+  .header-main-nav .primary {
+    color: white; }
+
+/**
  * Global Box-sizing 
 **/
 html {
@@ -59,11 +104,21 @@ html {
  * Global Elements
 **/
 html, body {
-  font-family: "Roboto", sans-serif; }
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem; }
 
 a {
   text-decoration: none; }
   a:hover {
     text-decoration: none; }
+
+/**
+ * Logo (image)
+**/
+.logo {
+  background-image: url("../img/logo.png");
+  background-size: 58px 37px;
+  height: 37px;
+  width: 58px; }
 
 /*# sourceMappingURL=main.css.map */

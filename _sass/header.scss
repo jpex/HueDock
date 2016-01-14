@@ -1,0 +1,44 @@
+/**
+ * Block: .header-main
+ *
+ * 1. Prefer inline-block and vertical-align, but causes infamous spacing
+ *    issues that are easier to overcome with float.
+**/
+
+.header-main {
+  background-color: $brand-info; 
+  color: #a9b4c9;
+  font-size: 0.9375em;
+  height: 90px;
+  line-height: 90px;
+  padding: 0 38px;
+
+  a { 
+    color: #a9b4c9;
+    font-weight: 500;
+    &:hover { color: white; }
+  }
+}
+
+  .header-main-logo {
+    float: left; /* 1 */
+    margin-top: 28px;
+  }
+
+    .header-main-logo-text {
+      color: white;
+      float: left;
+      font-size: 1.5rem;
+      margin-left: 13px;
+      span { color: #fa7777; }
+    }
+
+  .header-main-nav {
+    float: right;
+    li {
+      display: inline-block; 
+      margin-right: 34px;
+      &:last-child { margin-right: 0; }
+    }
+    .primary { color: white; }
+  }

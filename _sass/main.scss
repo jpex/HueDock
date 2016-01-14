@@ -1,6 +1,8 @@
 @import "reset";
 @import "helpers";
 
+@import "header";
+
 
 /**
  * Global Box-sizing 
@@ -21,9 +23,22 @@ html {
 
 html, body {
   font-family: $primary-font;
+  font-size: 1rem;
 }
 
 a {
   text-decoration: none;
   &:hover { text-decoration: none; }
+}
+
+
+/**
+ * Logo (image)
+**/
+
+.logo {
+  background-image: url("../img/logo.png");
+  background-size: (116px * 0.5 74px * 0.5);
+  height: 74px * 0.5;
+  width: 116px * 0.5;
 }
