@@ -1,5 +1,29 @@
 @import "reset";
+@import "helpers";
+
+
+/**
+ * Global Box-sizing 
+**/
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+/**
+ * Global Elements
+**/
 
 html, body {
-  color: blue;
+  font-family: $primary-font;
+}
+
+a {
+  text-decoration: none;
+  &:hover { text-decoration: none; }
 }

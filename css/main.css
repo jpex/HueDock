@@ -45,7 +45,25 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+/* Available in 400 or 500 font-weight only */
+/**
+ * Global Box-sizing 
+**/
+html {
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+/**
+ * Global Elements
+**/
 html, body {
-  color: blue; }
+  font-family: "Roboto", sans-serif; }
+
+a {
+  text-decoration: none; }
+  a:hover {
+    text-decoration: none; }
 
 /*# sourceMappingURL=main.css.map */
