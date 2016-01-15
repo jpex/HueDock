@@ -22,6 +22,7 @@ html {
 **/
 
 html, body {
+  background-color: #f4f4f4;
   font-family: $primary-font;
   font-size: 1rem;
 }
@@ -42,3 +43,86 @@ a {
   height: 74px * 0.5;
   width: 116px * 0.5;
 }
+
+
+/**
+ * Buttons
+**/
+
+.btn {
+  border-radius: 3px;
+  display: inline-block;
+}
+
+  .btn-primary {
+    background-color: $brand-primary;
+    color: #fff;
+    font-size: 1.0625em;
+    padding: 0.75em 1.5625em;
+  }
+
+  .btn-info {
+    background: linear-gradient( 0deg, #dedede, #eaeaea );
+    background-color: #e9e9e9;
+    border: 1px solid #ccc;
+    box-shadow: inset 0px 1px 0 #f2f2f2, inset 0px -3px 0 #ccc;
+    padding: 0.625em 0.75em;
+  }
+
+
+/**
+ * Block: .main
+**/
+
+.main {}
+
+  .main-tasks {
+    margin: 0 38px;
+  }
+
+.task-management {
+  float: left;
+  .btn-info { margin-right: 6px; }
+}
+
+.team-members {
+  float: right;
+  margin-top: 6px;
+  ul {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  li { 
+    display: inline-block; 
+    margin-left: 2px;
+  }
+}
+
+.member-photo {
+  background-color: rgba($brand-info, 0.1);
+  display: inline-block;
+  height: 32px;
+  width: 32px;
+}
+
+
+/**
+ * .nav-label
+ *
+ * 1. Some modifier labels will want to modify the right value slightly
+ *    and that value will be relative to the original.
+**/
+
+$nav-label-right: 0.6875em; /* 1 */
+
+.nav-label {
+  color: #575b66;
+  font-size: 0.875em;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  margin-right: $nav-label-right;
+  text-transform: uppercase;
+}
+
+  .nav-label-filter { margin-left: 2em; }
+  .nav-label-team { margin-right: $nav-label-right + 0.625em; }

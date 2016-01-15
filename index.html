@@ -20,7 +20,7 @@ Hello source viewer. Thanks for dropping by.
   </head>
 <body>
 
-  <header class="header-main">
+  <header class="header-main clearfix">
 
     <div id="logo">
       <a href="#">
@@ -48,80 +48,83 @@ Hello source viewer. Thanks for dropping by.
 
   </header>
 
-  <div>
+  <div class="header-secondary">
 
-    <div class="task-management">
-      <a href="#" class="btn-main">
-        <div class="i-plus"></div>
-        <span>New Task</span>
-      </a>
-      <span>Filter:</span>
-      <div class="filter-btn">
-        <span>Labels</span>
-        <div class="i-dropdown"></div>
+    <div class="clearfix">
+      <div class="task-management">
+        <a href="#" class="btn btn-primary">
+          <span class="i-plus"></span>
+          <span>New Task</span>
+        </a>
+        <span class="nav-label nav-label-filter">Filter:</span>
+        <div class="btn btn-info">
+          <span>Labels</span>
+          <div class="i-dropdown"></div>
+        </div>
+        <div class="btn btn-info">
+          <span>Milestones</span>
+          <div class="i-dropdown"></div>
+        </div>
+        <div class="btn btn-info">
+          <span>Assignee</span>
+          <div class="i-dropdown"></div>
+        </div>
       </div>
-      <div class="filter-btn">
-        <span>Milestones</span>
-        <div class="i-dropdown"></div>
+
+      <div class="team-members">
+        <span class="nav-label nav-label-team">Team:</span>
+        <ul>
+          <li>
+            <a href="#" class="member-photo">
+              <img src="#" alt="">
+            </a>
+          </li>
+          <li>
+            <a href="#" class="member-photo">
+              <img src="#" alt="">
+            </a>
+          </li>
+          <li>
+            <a href="#" class="member-photo">
+              <img src="#" alt="">
+            </a>
+          </li>
+          <li>
+            <a href="#" class="member-photo">
+              <img src="#" alt="">
+            </a>
+          </li>
+          <li>
+            <a href="#" class="member-photo">
+              <img src="#" alt="">
+            </a>
+          </li>
+          <li>
+            <a href="#" class="member-photo">
+              <img src="#" alt="">
+            </a>
+          </li>
+          <li>
+            <a href="#" class="member-photo">
+              <img src="#" alt="">
+            </a>
+          </li>
+          <li>
+            <a href="#" class="member-photo">
+              <img src="#" alt="">
+            </a>
+          </li>
+          <li>
+            <a href="#" class="member-photo">
+              <img src="#" alt="">
+            </a>
+          </li>
+        </ul>
       </div>
-      <div class="filter-btn">
-        <span>Assignee</span>
-        <div class="i-dropdown"></div>
-      </div>
+
     </div>
 
-    <div class="team-members">
-      <span>Team:</span>
-      <ul>
-        <li>
-          <a href="#">
-            <img src="#" alt="">
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <img src="#" alt="">
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <img src="#" alt="">
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <img src="#" alt="">
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <img src="#" alt="">
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <img src="#" alt="">
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <img src="#" alt="">
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <img src="#" alt="">
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <img src="#" alt="">
-          </a>
-        </li>
-      </ul>
-    </div>
-
-    <nav>
+    <nav class="header-secondary-categories">
       <ul>
         <li>Backlog</li>
         <li>Concepting</li>
@@ -134,7 +137,7 @@ Hello source viewer. Thanks for dropping by.
 
   </div>
 
-  <div class="main">
+  <div class="main main-tasks">
 
     <ul>
       <li class="issue-card">

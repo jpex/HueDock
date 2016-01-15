@@ -1,7 +1,28 @@
-$primary-font: 'Roboto', sans-serif; /* Available in 400 or 500 font-weight only */
-
 /**
- * General colors:
+ * Fonts
 **/
 
-$brand-info: #2f3238 !default;
+$primary-font: 'Roboto', sans-serif; /* Available in 400 or 500 font-weight only */
+
+
+/**
+ * General colors
+**/
+
+$brand-primary: #e96868 !default;
+$brand-info:    #2f3238 !default;
+
+
+/**
+ * Clearfix
+**/
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+} 
+
+.clearfix:after {
+    clear: both;
+}

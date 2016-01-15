@@ -42,3 +42,25 @@
     }
     .primary { color: white; }
   }
+
+
+/**
+ * Block: .header-secondary
+**/
+
+.header-secondary {
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  padding: 25px 38px 12px;
+}
+
+  .header-secondary-categories {
+    color: #575b66;
+    font-size: 1.125em;
+    font-weight: 500;
+    margin-top: 58px;
+    li { 
+      display: inline-block; 
+      width: floor(100% / 6);
+    }
+  }
