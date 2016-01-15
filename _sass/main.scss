@@ -77,8 +77,16 @@ a {
 .main {}
 
   .main-tasks {
-    margin: 0 38px;
+    margin: 15px 38px 38px;
   }
+
+    .main-tasks-col {
+      display: inline-block;
+      padding: 0 10px;
+      width: floor(100% / 6);
+    }
+
+      .main-tasks-col-fix { margin: 0 -10px; }
 
 .task-management {
   float: left;
@@ -103,6 +111,15 @@ a {
   display: inline-block;
   height: 32px;
   width: 32px;
+}
+
+.issue-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  color: #575b66;
+  line-height: 1.5;
+  padding: 15px;
 }
 
 

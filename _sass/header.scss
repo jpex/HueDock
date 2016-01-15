@@ -58,9 +58,10 @@
     color: #575b66;
     font-size: 1.125em;
     font-weight: 500;
-    margin-top: 58px;
+    margin: 58px -10px 0;
     li { 
       display: inline-block; 
+      padding: 0 10px;
       width: floor(100% / 6);
     }
   }

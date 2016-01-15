@@ -117,9 +117,10 @@ table {
   color: #575b66;
   font-size: 1.125em;
   font-weight: 500;
-  margin-top: 58px; }
+  margin: 58px -10px 0; }
   .header-secondary-categories li {
     display: inline-block;
+    padding: 0 10px;
     width: 16%; }
 
 /**
@@ -177,7 +178,15 @@ a {
  * Block: .main
 **/
 .main-tasks {
-  margin: 0 38px; }
+  margin: 15px 38px 38px; }
+
+.main-tasks-col {
+  display: inline-block;
+  padding: 0 10px;
+  width: 16%; }
+
+.main-tasks-col-fix {
+  margin: 0 -10px; }
 
 .task-management {
   float: left; }
@@ -199,6 +208,14 @@ a {
   display: inline-block;
   height: 32px;
   width: 32px; }
+
+.issue-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  color: #575b66;
+  line-height: 1.5;
+  padding: 15px; }
 
 /**
  * .nav-label
