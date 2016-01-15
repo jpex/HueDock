@@ -81,12 +81,27 @@ a {
   }
 
     .main-tasks-col {
-      display: inline-block;
+      float: left;
       padding: 0 10px;
-      width: floor(100% / 6);
+      width: (100% / 6);
+      &:last-child { width: floor(100% / 6); }
     }
 
       .main-tasks-col-fix { margin: 0 -10px; }
+
+    .main-tasks-number {
+      font-size: 1.5625em;
+      line-height: 1;
+      margin-top: 7px;
+      text-align: right;
+    }
+
+    .main-tasks-labels {
+      float: left;
+      margin: 12px 0 0 5px;
+      li { float: left; }
+      .square { margin-left: 5px; }
+    }
 
 .task-management {
   float: left;
@@ -117,10 +132,27 @@ a {
   background-color: #fff;
   border: 1px solid #ddd;
   border-radius: 3px;
+  box-shadow: inset 0px -1px 0 #ddd;
   color: #575b66;
   line-height: 1.5;
-  padding: 15px;
+  .title, .secondary { padding: 15px; }
+  .secondary { 
+    @include clearfix();
+    border-top: 1px solid #e5e5e5; 
+  }
+  .member-photo { float: left; }
 }
+
+.square {
+  background-color: rgba($brand-info, 0.1);
+  border-radius: 3px;
+  float: left;
+  height: 20px;
+  width: 20px;
+}
+
+  .square-red  { background-color: #e96868; }
+  .square-blue { background-color: #45a3e6; }
 
 
 /**

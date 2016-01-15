@@ -60,8 +60,9 @@
     font-weight: 500;
     margin: 58px -10px 0;
     li { 
-      display: inline-block; 
+      float: left;
       padding: 0 10px;
-      width: floor(100% / 6);
+      width: (100% / 6);
+      &:last-child { width: floor(100% / 6); }
     }
   }

@@ -26,3 +26,22 @@ $brand-info:    #2f3238 !default;
 .clearfix:after {
     clear: both;
 }
+
+@mixin clearfix() {
+
+  &:before, &:after {
+    content: "";
+    display: table;
+  }
+  &:after {
+      clear: both;
+  } 
+  
+}
+
+
+/**
+ * is-
+**/
+
+.is-faded { opacity: 0.7; }

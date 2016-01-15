@@ -64,6 +64,12 @@ table {
   clear: both; }
 
 /**
+ * is-
+**/
+.is-faded {
+  opacity: 0.7; }
+
+/**
  * Block: .header-main
  *
  * 1. Prefer inline-block and vertical-align, but causes infamous spacing
@@ -119,9 +125,11 @@ table {
   font-weight: 500;
   margin: 58px -10px 0; }
   .header-secondary-categories li {
-    display: inline-block;
+    float: left;
     padding: 0 10px;
-    width: 16%; }
+    width: 16.66667%; }
+    .header-secondary-categories li:last-child {
+      width: 16%; }
 
 /**
  * Global Box-sizing 
@@ -181,12 +189,28 @@ a {
   margin: 15px 38px 38px; }
 
 .main-tasks-col {
-  display: inline-block;
+  float: left;
   padding: 0 10px;
-  width: 16%; }
+  width: 16.66667%; }
+  .main-tasks-col:last-child {
+    width: 16%; }
 
 .main-tasks-col-fix {
   margin: 0 -10px; }
+
+.main-tasks-number {
+  font-size: 1.5625em;
+  line-height: 1;
+  margin-top: 7px;
+  text-align: right; }
+
+.main-tasks-labels {
+  float: left;
+  margin: 12px 0 0 5px; }
+  .main-tasks-labels li {
+    float: left; }
+  .main-tasks-labels .square {
+    margin-left: 5px; }
 
 .task-management {
   float: left; }
@@ -213,9 +237,33 @@ a {
   background-color: #fff;
   border: 1px solid #ddd;
   border-radius: 3px;
+  box-shadow: inset 0px -1px 0 #ddd;
   color: #575b66;
-  line-height: 1.5;
-  padding: 15px; }
+  line-height: 1.5; }
+  .issue-card .title, .issue-card .secondary {
+    padding: 15px; }
+  .issue-card .secondary {
+    border-top: 1px solid #e5e5e5; }
+    .issue-card .secondary:before, .issue-card .secondary:after {
+      content: "";
+      display: table; }
+    .issue-card .secondary:after {
+      clear: both; }
+  .issue-card .member-photo {
+    float: left; }
+
+.square {
+  background-color: rgba(47, 50, 56, 0.1);
+  border-radius: 3px;
+  float: left;
+  height: 20px;
+  width: 20px; }
+
+.square-red {
+  background-color: #e96868; }
+
+.square-blue {
+  background-color: #45a3e6; }
 
 /**
  * .nav-label
