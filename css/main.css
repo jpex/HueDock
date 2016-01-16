@@ -137,6 +137,55 @@ table {
       width: 16%; }
 
 /**
+ * Block: .footer-main
+ *
+ * 1. Prefer inline-block and vertical-align, but causes infamous spacing
+ *    issues that are easier to overcome with float.
+**/
+.footer-main {
+  background-color: #2f3238;
+  bottom: 0;
+  height: 90px;
+  left: 0;
+  line-height: 90px;
+  padding: 0 38px;
+  position: absolute;
+  right: 0;
+  text-align: center; }
+
+.footer-navigation {
+  color: #a9b4c9;
+  float: left; }
+  .footer-navigation a {
+    color: #fff; }
+
+.footer-stats {
+  float: right; }
+  .footer-stats li {
+    float: left;
+    margin-left: 60px; }
+
+.footer-stats-header {
+  color: #fff;
+  float: left;
+  font-size: 1.875em;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-top: 18px; }
+
+.footer-stats-copy {
+  clear: both;
+  color: #a9b4c9;
+  float: left;
+  font-size: 0.9375em;
+  line-height: 1.2; }
+
+.wrapper {
+  min-height: 100%;
+  padding-bottom: 114px;
+  position: relative; }
+
+/**
  * Global Box-sizing 
 **/
 html {
@@ -151,7 +200,8 @@ html {
 html, body {
   background-color: #f4f4f4;
   font-family: "Roboto", sans-serif;
-  font-size: 1rem; }
+  font-size: 1rem;
+  height: 100%; }
 
 a {
   text-decoration: none; }
@@ -191,7 +241,7 @@ a {
  * Block: .main
 **/
 .main-tasks {
-  margin: 15px 38px 38px; }
+  margin: 15px 38px 0px; }
 
 .main-tasks-col {
   float: left;

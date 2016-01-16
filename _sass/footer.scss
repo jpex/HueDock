@@ -1,0 +1,55 @@
+/**
+ * Block: .footer-main
+ *
+ * 1. Prefer inline-block and vertical-align, but causes infamous spacing
+ *    issues that are easier to overcome with float.
+**/
+
+.footer-main {
+  background-color: $brand-info;
+  bottom: 0;
+  height: 90px;
+  left: 0;
+  line-height: 90px;
+  padding: 0 38px;
+  position: absolute;
+  right: 0;
+  text-align: center;
+}
+
+.footer-navigation {
+  color: #a9b4c9;
+  float: left;
+  a { color: #fff; }
+}
+
+.footer-stats {
+  float: right;
+  li { 
+    float: left;
+    margin-left: 60px;
+  }
+}
+
+  .footer-stats-header {
+    color: #fff;
+    float: left;
+    font-size: 1.875em;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-top: 18px;
+  }
+
+  .footer-stats-copy {
+    clear: both;
+    color: #a9b4c9;
+    float: left;
+    font-size: 0.9375em;
+    line-height: 1.2;
+  }
+
+.wrapper {
+  min-height: 100%;
+  padding-bottom: 90px + 24px;
+  position: relative;
+}
