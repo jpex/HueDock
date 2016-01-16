@@ -170,6 +170,11 @@ a {
     padding: 29px 0;
     text-align: center;
   }
+  &.load {
+    background-color: #efefef;
+    cursor: pointer;
+    text-align: center;
+  }
 }
 
 .square {

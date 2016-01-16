@@ -281,6 +281,10 @@ a {
     background-color: #efefef;
     padding: 29px 0;
     text-align: center; }
+  .issue-card.load {
+    background-color: #efefef;
+    cursor: pointer;
+    text-align: center; }
 
 .square {
   background-color: rgba(47, 50, 56, 0.1);
