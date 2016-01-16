@@ -158,6 +158,18 @@ a {
     box-shadow: none;
   }
   &.merged-sub-last { border-radius: 0 0 3px 3px; }
+  &.warning { 
+    position:  relative;
+    border-color: $brand-primary;
+    box-shadow: inset 0px 0px 0px 1px $brand-primary,
+                inset 0px -1px 0 $brand-primary;
+    .secondary { margin: 0 1px; }
+  }
+  &.empty {
+    background-color: #efefef;
+    padding: 29px 0;
+    text-align: center;
+  }
 }
 
 .square {

@@ -271,6 +271,16 @@ a {
     box-shadow: none; }
   .issue-card.merged-sub-last {
     border-radius: 0 0 3px 3px; }
+  .issue-card.warning {
+    position: relative;
+    border-color: #e96868;
+    box-shadow: inset 0px 0px 0px 1px #e96868, inset 0px -1px 0 #e96868; }
+    .issue-card.warning .secondary {
+      margin: 0 1px; }
+  .issue-card.empty {
+    background-color: #efefef;
+    padding: 29px 0;
+    text-align: center; }
 
 .square {
   background-color: rgba(47, 50, 56, 0.1);
