@@ -20,7 +20,23 @@
 .footer-navigation {
   color: #a9b4c9;
   float: left;
-  a { color: #fff; }
+  a { 
+    color: #fff; 
+    &:hover .i-border:before { border-color: #fff; }
+  }
+  .i-border:before { 
+    border-color: #a9b4c9;
+    left: -7px;
+    top: -5px;
+  }
+  .i-arrow-left {
+    margin-right: 16px;
+    top: 2px;
+  }
+  .i-arrow-right {
+    margin-left: 16px;
+    top: 2px;
+  }
 }
 
 .footer-stats {

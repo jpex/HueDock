@@ -115,6 +115,9 @@ table {
     position: relative;
     right: 8px;
     top: 10px; }
+  .header-main-nav .i-gear {
+    right: 4px;
+    top: 2px; }
 
 /**
  * Block: .header-secondary
@@ -158,6 +161,18 @@ table {
   float: left; }
   .footer-navigation a {
     color: #fff; }
+    .footer-navigation a:hover .i-border:before {
+      border-color: #fff; }
+  .footer-navigation .i-border:before {
+    border-color: #a9b4c9;
+    left: -7px;
+    top: -5px; }
+  .footer-navigation .i-arrow-left {
+    margin-right: 16px;
+    top: 2px; }
+  .footer-navigation .i-arrow-right {
+    margin-left: 16px;
+    top: 2px; }
 
 .footer-stats {
   float: right; }
@@ -222,13 +237,23 @@ a {
 **/
 .btn {
   border-radius: 3px;
+  cursor: pointer;
   display: inline-block; }
 
 .btn-primary {
   background-color: #e96868;
+  box-shadow: inset 0px -3px 0 #e23f3e;
   color: #fff;
   font-size: 1.0625em;
   padding: 0.75em 1.5625em; }
+  .btn-primary:hover .i-border:before {
+    border-color: rgba(255, 255, 255, 0.7); }
+  .btn-primary .i-border:before {
+    left: -6px;
+    top: -6px; }
+  .btn-primary .i-plus {
+    bottom: 1px;
+    margin: 0 0.6875em 0 0.1875em; }
 
 .btn-info {
   background: linear-gradient(0deg, #dedede, #eaeaea);
@@ -236,6 +261,16 @@ a {
   border: 1px solid #ccc;
   box-shadow: inset 0px 1px 0 #f2f2f2, inset 0px -3px 0 #ccc;
   padding: 0.625em 0.75em; }
+  .btn-info:hover {
+    background: linear-gradient(0deg, #d6d6d6, #e7e7e7); }
+
+.btn-dropdown {
+  min-width: 110px; }
+  .btn-dropdown span {
+    padding-right: 1em; }
+  .btn-dropdown .i-dropdown {
+    float: right;
+    top: 0.3em; }
 
 /**
  * Block: .main
@@ -378,5 +413,46 @@ a {
 
 .nav-label-team {
   margin-right: 1.3125em; }
+
+/**
+ * Sprite
+**/
+.i {
+  background-image: url("../img/sprite.png");
+  background-size: 100px 50px;
+  display: inline-block;
+  position: relative; }
+
+.i-arrow-left {
+  background-position: -50px 0;
+  height: 12px;
+  width: 8px; }
+
+.i-arrow-right {
+  background-position: -50px -25px;
+  height: 12px;
+  width: 8px; }
+
+.i-plus {
+  background-position: -25px 0;
+  height: 9px;
+  width: 9px; }
+
+.i-gear {
+  background-position: -75px 0;
+  height: 16px;
+  width: 16px; }
+
+.i-border:before {
+  border: 2px solid #fff;
+  border-radius: 3px;
+  content: '';
+  height: 21px;
+  position: absolute;
+  width: 21px; }
+
+.i-dropdown {
+  height: 6px;
+  width: 12px; }
 
 /*# sourceMappingURL=main.css.map */

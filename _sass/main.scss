@@ -53,14 +53,25 @@ a {
 
 .btn {
   border-radius: 3px;
+  cursor: pointer;
   display: inline-block;
 }
 
   .btn-primary {
     background-color: $brand-primary;
+    box-shadow: inset 0px -3px 0 #e23f3e;
     color: #fff;
     font-size: 1.0625em;
     padding: 0.75em 1.5625em;
+    &:hover .i-border:before { border-color: rgba(#fff, 0.7); }
+    .i-border:before { 
+      left: -6px;
+      top: -6px;
+    }
+    .i-plus { 
+      bottom: 1px;
+      margin: 0 0.6875em 0 0.1875em; 
+    }
   }
 
   .btn-info {
@@ -69,6 +80,16 @@ a {
     border: 1px solid #ccc;
     box-shadow: inset 0px 1px 0 #f2f2f2, inset 0px -3px 0 #ccc;
     padding: 0.625em 0.75em;
+    &:hover { background: linear-gradient( 0deg, darken(#dedede, 3%), darken(#eaeaea, 1%) ); }
+  }
+
+  .btn-dropdown {
+    min-width: 110px;
+    span { padding-right: 1em; }
+    .i-dropdown { 
+      float: right;
+      top: 0.3em; 
+    }
   }
 
 
@@ -214,3 +235,55 @@ $nav-label-right: 0.6875em; /* 1 */
 
   .nav-label-filter { margin-left: 2em; }
   .nav-label-team { margin-right: $nav-label-right + 0.625em; }
+
+
+/**
+ * Sprite
+**/
+
+.i {
+  background-image: url("../img/sprite.png");
+  background-size: 200px * 0.5 100px * 0.5;
+  display: inline-block;
+  position: relative;
+}
+
+  .i-arrow-left {
+    background-position: -50px 0;
+    height: 12px;
+    width: 8px;
+  }
+
+  .i-arrow-right {
+    background-position: -50px -25px;
+    height: 12px;
+    width: 8px;
+  }
+
+  .i-plus {
+    background-position: -25px 0;
+    height: 9px;
+    width: 9px;
+  }
+
+  .i-gear {
+    background-position: -75px 0;
+    height: 16px;
+    width: 16px;
+  }
+
+  .i-border {
+    &:before {
+      border: 2px solid #fff;
+      border-radius: 3px;
+      content: '';
+      height: 21px;
+      position: absolute;
+      width: 21px;
+    }
+  }
+
+  .i-dropdown {
+    height: 6px;
+    width: 12px;
+  }
