@@ -36,7 +36,7 @@ $brand-info:    #2f3238 !default;
   &:after {
       clear: both;
   } 
-  
+
 }
 
 
@@ -45,3 +45,12 @@ $brand-info:    #2f3238 !default;
 **/
 
 .is-faded { opacity: 0.7; }
+
+
+/**
+ * General Media Queries
+ *
+ * Refactor variable names if complexity increases.
+**/
+
+$md-screen: "(min-width: 1024px)";

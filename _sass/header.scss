@@ -8,10 +8,16 @@
 .header-main {
   background-color: $brand-info; 
   color: #a9b4c9;
-  font-size: 0.9375em;
-  height: 90px;
-  line-height: 90px;
-  padding: 0 38px;
+  font-size: 0.875em;
+  height: 54px;
+  line-height: 54px;
+  padding: 0 24px;
+  @media #{$md-screen} { 
+    font-size: 0.9375em; 
+    height: 90px;
+    line-height: 90px;
+    padding: 0 38px;
+  }
 
   a { 
     color: #a9b4c9;
@@ -22,15 +28,18 @@
 
   .header-main-logo {
     float: left; /* 1 */
-    margin-top: 28px;
+    margin-top: 16px;
+    @media #{$md-screen} { margin-top: 28px; }
   }
 
     .header-main-logo-text {
       color: white;
       float: left;
-      font-size: 1.5rem;
+      font-size: 1.4375rem;
       margin-left: 13px;
+      @media #{$md-screen} { font-size: 1.5em; }
       span { color: #fa7777; }
+      &:hover { color: #fa7777; }
     }
 
   .header-main-nav {
@@ -45,7 +54,8 @@
       margin-left: 8px;
       position: relative;
       right: 8px;
-      top: 10px; 
+      top: 5px; 
+      @media #{$md-screen} { top: 10px; }
     }
     .i-gear { 
       right: 4px;
@@ -61,14 +71,19 @@
 .header-secondary {
   background-color: #fff;
   border-bottom: 1px solid #ddd;
-  padding: 25px 38px 12px;
+  padding: 23px 24px 6px;
+  @media #{$md-screen} { padding: 25px 38px 12px; }
 }
 
   .header-secondary-categories {
     color: #575b66;
-    font-size: 1.125em;
+    font-size: 0.875em;
     font-weight: 500;
-    margin: 58px -10px 0;
+    margin: 34px -7px 0;
+    @media #{$md-screen} {
+      margin: 58px -10px 0; 
+      font-size: 1.125em; 
+    }
     li { 
       float: left;
       padding: 0 10px;
