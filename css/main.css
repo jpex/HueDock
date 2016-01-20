@@ -137,6 +137,8 @@ table {
     position: relative;
     right: 8px;
     top: 5px; }
+    .header-main-nav .member-photo img {
+      position: absolute; }
     @media (min-width: 1024px) {
       .header-main-nav .member-photo {
         top: 10px; } }
@@ -594,6 +596,9 @@ a {
   display: inline-block;
   height: 20px;
   width: 20px; }
+  .member-photo img {
+    height: 100%;
+    width: 100%; }
   @media (min-width: 1024px) {
     .member-photo {
       height: 32px;

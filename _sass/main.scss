@@ -184,6 +184,10 @@ a {
   display: inline-block;
   height: 20px;
   width: 20px;
+  img { 
+    height: 100%;
+    width: 100%; 
+  }
   @media #{$md-screen} {
     height: 32px;
     width: 32px;    

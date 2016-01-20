@@ -55,6 +55,7 @@
       position: relative;
       right: 8px;
       top: 5px; 
+      img { position: absolute; }
       @media #{$md-screen} { top: 10px; }
     }
     .i-gear { 
