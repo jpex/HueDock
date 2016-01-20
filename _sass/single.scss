@@ -60,16 +60,16 @@
     display: inline-block;
     line-height: 1.2;
     padding-left: 12px;
-    h4 { font-size: 1.05em;}
+    h4 { font-size: 1.05em; }
   }
 
 
 .member-photo.contacts {
-  width: 29px;
   height: 29px;
+  width: 29px;
   @media #{$md-screen} { 
-    width: 32px;
     height: 32px;
+    width: 32px;
   }
 } 
 
@@ -109,10 +109,10 @@
 
 .table-content {
   display: table;
+  height: 100%;
   overflow: hidden;
   padding-bottom: 54px;
   position: relative;
-  height: 100%;
   @media #{$md-screen} { padding-bottom: 90px; }
 }
 
@@ -125,6 +125,7 @@
   padding-bottom: 26px;
   position: relative;
   @media #{$md-screen} { margin-left: 62px + 103px; }
+
   &:before { 
     background-color: #ddd;
     content: "";
@@ -133,7 +134,9 @@
     position: absolute;
     width: 4px;
   }
+
   &:last-child:before { display: none; }
+
   a { 
     color: #222;
     font-weight: 500; 
@@ -144,15 +147,15 @@
     margin-bottom: 15px;
   }
 
-.timeline-day { color: #2f3238; }
+.timeline-day  { color: #2f3238; }
 .timeline-time { color: #7c808c; }
 
 .timeline-times {
   display: none;
-  text-align: right;
   float: left;
   line-height: 1.4;
   margin-left: (62px + 103px + 20px) * -1;
+  text-align: right;
   width: 103px;
   @media #{$md-screen} { display: block; }
 }

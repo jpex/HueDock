@@ -26,12 +26,12 @@ $brand-info:    #2f3238 !default;
 
 .clearfix:before,
 .clearfix:after {
-    content: "";
-    display: table;
+  content: "";
+  display: table;
 } 
 
 .clearfix:after {
-    clear: both;
+  clear: both;
 }
 
 @mixin clearfix() {
@@ -41,7 +41,7 @@ $brand-info:    #2f3238 !default;
     display: table;
   }
   &:after {
-      clear: both;
+    clear: both;
   } 
 
 }
