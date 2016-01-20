@@ -90,7 +90,7 @@ table {
   height: 54px;
   line-height: 54px;
   padding: 0 24px; }
-  @media (min-width: 1024px) {
+  @media (min-width: 1025px) {
     .header-main {
       font-size: 0.9375em;
       height: 90px;
@@ -106,7 +106,7 @@ table {
   float: left;
   /* 1 */
   margin-top: 16px; }
-  @media (min-width: 1024px) {
+  @media (min-width: 1025px) {
     .header-main-logo {
       margin-top: 28px; } }
 
@@ -115,7 +115,7 @@ table {
   float: left;
   font-size: 1.4375rem;
   margin-left: 13px; }
-  @media (min-width: 1024px) {
+  @media (min-width: 1025px) {
     .header-main-logo-text {
       font-size: 1.5em; } }
   .header-main-logo-text span {
@@ -139,7 +139,7 @@ table {
     top: 5px; }
     .header-main-nav .member-photo img {
       position: absolute; }
-    @media (min-width: 1024px) {
+    @media (min-width: 1025px) {
       .header-main-nav .member-photo {
         top: 10px; } }
   .header-main-nav .i-gear {
@@ -153,7 +153,7 @@ table {
   background-color: #fff;
   border-bottom: 1px solid #ddd;
   padding: 23px 24px 6px; }
-  @media (min-width: 1024px) {
+  @media (min-width: 1025px) {
     .header-secondary {
       padding: 25px 38px 12px; } }
 
@@ -162,7 +162,7 @@ table {
   font-size: 0.875em;
   font-weight: 500;
   margin: 34px -7px 0; }
-  @media (min-width: 1024px) {
+  @media (min-width: 1025px) {
     .header-secondary-categories {
       margin: 58px -10px 0;
       font-size: 1.125em; } }
@@ -189,7 +189,7 @@ table {
   position: absolute;
   right: 0;
   text-align: center; }
-  @media (min-width: 1024px) {
+  @media (min-width: 1025px) {
     .footer-main {
       height: 94px;
       line-height: 90px;
@@ -210,13 +210,13 @@ table {
     margin-left: 7px;
     margin-right: 16px;
     top: 1px; }
-    @media (min-width: 1024px) {
+    @media (min-width: 1025px) {
       .footer-navigation .i-arrow-left {
         top: 2px; } }
   .footer-navigation .i-arrow-right {
     margin-left: 16px;
     top: 1px; }
-    @media (min-width: 1024px) {
+    @media (min-width: 1025px) {
       .footer-navigation .i-arrow-right {
         top: 2px; } }
 
@@ -225,7 +225,7 @@ table {
   .footer-stats li {
     float: left;
     margin-left: 24px; }
-    @media (min-width: 1024px) {
+    @media (min-width: 1025px) {
       .footer-stats li {
         margin-left: 60px; } }
 
@@ -237,7 +237,7 @@ table {
   line-height: 2.2;
   margin-right: 7px;
   margin-top: 2px; }
-  @media (min-width: 1024px) {
+  @media (min-width: 1025px) {
     .footer-stats-header {
       font-size: 1.875em;
       line-height: 1.2;
@@ -251,7 +251,7 @@ table {
   line-height: 0;
   position: relative;
   top: 29px; }
-  @media (min-width: 1024px) {
+  @media (min-width: 1025px) {
     .footer-stats-copy {
       clear: both;
       line-height: 1.2;
@@ -269,7 +269,7 @@ table {
   height: 100%;
   padding: 34px 50px 34px 24px;
   width: 58%; }
-  @media (min-width: 1024px) {
+  @media (min-width: 1025px) {
     .main-content {
       padding: 64px 135px 50px 64px; } }
 
@@ -277,7 +277,7 @@ table {
   color: #222;
   line-height: 1.5;
   padding: 40px 0 14px; }
-  @media (min-width: 1024px) {
+  @media (min-width: 1025px) {
     .main-content-body {
       font-size: 1.0625em; } }
   .main-content-body p {
@@ -286,7 +286,7 @@ table {
 .main-content-title {
   font-size: 1.5em;
   padding-bottom: 0.75em; }
-  @media (min-width: 1024px) {
+  @media (min-width: 1025px) {
     .main-content-title {
       font-size: 1.875em; } }
   .main-content-title span {
@@ -302,7 +302,7 @@ table {
   padding-bottom: 20px;
   padding-right: 15px;
   width: 250px; }
-  @media (min-width: 1024px) {
+  @media (min-width: 1025px) {
     .main-content-list {
       font-size: 1em; } }
   .main-content-list a {
@@ -318,7 +318,7 @@ table {
   float: right; }
   .main-content-labels .tag {
     font-size: 0.875em; }
-    @media (min-width: 1024px) {
+    @media (min-width: 1025px) {
       .main-content-labels .tag {
         margin-right: 6px; }
         .main-content-labels .tag:last-child {
@@ -334,7 +334,7 @@ table {
 .member-photo.contacts {
   width: 29px;
   height: 29px; }
-  @media (min-width: 1024px) {
+  @media (min-width: 1025px) {
     .member-photo.contacts {
       width: 32px;
       height: 32px; } }
@@ -346,7 +346,7 @@ table {
   min-width: 430px;
   padding: 34px 24px;
   width: 42%; }
-  @media (min-width: 1024px) {
+  @media (min-width: 1025px) {
     .secondary-content {
       padding: 64px 38px 50px 64px; } }
 
@@ -354,7 +354,7 @@ table {
   color: #222;
   font-size: 1.5em;
   margin-bottom: 14px; }
-  @media (min-width: 1024px) {
+  @media (min-width: 1025px) {
     .secondary-content-title {
       margin-bottom: 26px; } }
 
@@ -379,7 +379,7 @@ table {
   padding-bottom: 54px;
   position: relative;
   height: 100%; }
-  @media (min-width: 1024px) {
+  @media (min-width: 1025px) {
     .table-content {
       padding-bottom: 90px; } }
 
@@ -391,7 +391,7 @@ table {
   margin-top: 7px;
   padding-bottom: 26px;
   position: relative; }
-  @media (min-width: 1024px) {
+  @media (min-width: 1025px) {
     .timeline-media {
       margin-left: 165px; } }
   .timeline-media:before {
@@ -423,7 +423,7 @@ table {
   line-height: 1.4;
   margin-left: -185px;
   width: 103px; }
-  @media (min-width: 1024px) {
+  @media (min-width: 1025px) {
     .timeline-times {
       display: block; } }
 
@@ -459,7 +459,7 @@ a {
   background-size: 34.8px 22.2px;
   height: 22.2px;
   width: 34.8px; }
-  @media (min-width: 1024px) {
+  @media (min-width: 1025px) {
     .logo {
       background-size: 58px 37px;
       height: 37px;
@@ -511,7 +511,7 @@ a {
 **/
 .main-tasks {
   margin: 10px 24px 0px; }
-  @media (min-width: 1024px) {
+  @media (min-width: 1025px) {
     .main-tasks {
       margin: 15px 38px 0px; } }
 
@@ -519,7 +519,7 @@ a {
   float: left;
   padding: 0 7px;
   width: 16.66667%; }
-  @media (min-width: 1024px) {
+  @media (min-width: 1025px) {
     .main-tasks-col {
       padding: 0 10px; } }
   .main-tasks-col:last-child {
@@ -527,7 +527,7 @@ a {
 
 .main-tasks-col-fix {
   margin: 0 -7px; }
-  @media (min-width: 1024px) {
+  @media (min-width: 1025px) {
     .main-tasks-col-fix {
       margin: 0 -10px; } }
 
@@ -556,7 +556,7 @@ a {
 .main-tasks-labels {
   float: left;
   margin: 8px 0 0 3px; }
-  @media (min-width: 1024px) {
+  @media (min-width: 1025px) {
     .main-tasks-labels {
       margin: 12px 0 0 5px; } }
   .main-tasks-labels li {
@@ -578,7 +578,7 @@ a {
 .team-members {
   float: right;
   margin-top: 11px; }
-  @media (min-width: 1024px) {
+  @media (min-width: 1025px) {
     .team-members {
       margin-top: 6px; } }
   .team-members ul {
@@ -587,7 +587,7 @@ a {
   .team-members li {
     display: inline-block;
     margin-left: 1px; }
-    @media (min-width: 1024px) {
+    @media (min-width: 1025px) {
       .team-members li {
         margin-left: 2px; } }
 
@@ -599,7 +599,7 @@ a {
   .member-photo img {
     height: 100%;
     width: 100%; }
-  @media (min-width: 1024px) {
+  @media (min-width: 1025px) {
     .member-photo {
       height: 32px;
       width: 32px; } }
@@ -629,7 +629,7 @@ a {
   .issue-card .title {
     font-size: 0.9375em;
     padding: 5px 10px; }
-    @media (min-width: 1024px) {
+    @media (min-width: 1025px) {
       .issue-card .title {
         font-size: 1em;
         padding: 8px 15px; } }
@@ -641,7 +641,7 @@ a {
       display: table; }
     .issue-card .secondary:after {
       clear: both; }
-    @media (min-width: 1024px) {
+    @media (min-width: 1025px) {
       .issue-card .secondary {
         padding: 15px; } }
   .issue-card .member-photo {
@@ -676,7 +676,7 @@ a {
   float: left;
   height: 12px;
   width: 12px; }
-  @media (min-width: 1024px) {
+  @media (min-width: 1025px) {
     .square {
       border-radius: 3px;
       height: 20px;
@@ -728,7 +728,7 @@ a {
     left: -8px;
     top: -4px;
     width: 20px; }
-  @media (min-width: 1024px) {
+  @media (min-width: 1025px) {
     .tag-closed {
       padding: 8px 14px; } }
 
@@ -746,7 +746,7 @@ a {
   letter-spacing: 0.05em;
   margin-right: 0.375em;
   text-transform: uppercase; }
-  @media (min-width: 1024px) {
+  @media (min-width: 1025px) {
     .nav-label {
       font-size: 0.875em;
       margin-right: 0.6875em; } }
@@ -756,7 +756,7 @@ a {
 
 .nav-label-team {
   margin-right: 0.6875em; }
-  @media (min-width: 1024px) {
+  @media (min-width: 1025px) {
     .nav-label-team {
       margin-right: 1.3125em; } }
 
