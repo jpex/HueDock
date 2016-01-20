@@ -19,7 +19,7 @@ Hello source viewer. Thanks for dropping by.
       <link rel="icon" type="image/ico" href="/favicon.png" />
   </head>
 <body>
-  <div class="wrapper">
+
     <header class="header-main clearfix">
 
       <div id="logo">
@@ -49,150 +49,178 @@ Hello source viewer. Thanks for dropping by.
       </nav>
     </header>
 
-    <section class="main-content">
-      <div class="main-content-header">
-        <h1>Invoices are no longer generating for users</h1>
-        <span>#140</span>
-        <span>Closed</span>
-        <span class="nav-label nav-label-filter">Labels:</span>
-        <span>Critical</span>
-        <span>Bug</span>
-      </div>
-      <div class="main-content-body">
-        Nunc fringilla purus lectus, nec aliquam quam lacinia eget. Donec ornare viverra tincidunt. In ac magna scelerisque, ornare ex at, convallis sapien. Morbi tristique bibendum placerat.
-
-        Etiam iaculis ligula et placerat cursus. Aenean et dolor mollis, porta enim vitae, egestas elit. Quisque ultrices neque eu nunc pulvinar euismod. Duis finibus odio eget tristique maximus. Phasellus rhoncus magna vel turpis ultricies pharetra. Praesent interdum nisi ut diam luctus efficitur. Nulla pulvinar, est nec luctus porttitor.
-        leo, ac efficitur urna est nec orci. 
-      </div>
-
-      <h2>Project Files</h2>
-      <ul>
-        <li><h3>desktop.psd</h3> <span>(3.1 MB)</span></li>
-        <li><h3>tablet.psd</h3> <span>(4.4 MB)</span></li>
-      </ul>
-      <h2>Project Contracts</h2>
-      <ul>
-        <li>
-          <a href="#" class="member-photo">
-            <img src="#" alt="">
-          </a>   
-          <a href="#">       
-            <h4>Jane S.</h4> 
-            <span>Project Manager</span>
-          </a>
-        </li>
-        <li>
-          <a href="#" class="member-photo">
-            <img src="#" alt="">
-          </a>   
-          <a href="#">       
-            <h4>Bob P.</h4> 
-            <span>UI Designer</span>
-          </a>
-        </li>
-        <li>
-          <a href="#" class="member-photo">
-            <img src="#" alt="">
-          </a>   
-          <a href="#">       
-            <h4>Erica H.</h4> 
-            <span>Frontend Developer</span>
-          </a>
-        </li>
-        <li>
-          <a href="#" class="member-photo">
-            <img src="#" alt="">
-          </a>   
-          <a href="#">       
-            <h4>Nick T.</h4> 
-            <span>Senior Developer</span>
-          </a>
-        </li>
-      </ul>
-    </section>
-    <section class="secondary-content">
-      <div class="main-content-header">
-        <h1>Project Timeline</h1>
-        <span class="nav-label nav-label-filter">Time Open:</span>
-        <span>2 Hours</span>
-        <div class="btn btn-info btn-dropdown">
-          <span>Filter View</span>
-          <div class="i i-dropdown"></div>
-        </div>
-      </div>
-
-      <div class="timeine-media">
-        <a href="#" class="member-photo">
-          <div class="member-photo-border">
-            <img src="#" alt="">
+    <div class="table-content">
+      <section class="main-content">
+        <div class="main-content-header">
+          <h1 class="main-content-title">Invoices are no longer generating for users <span>#140</span></h1>
+          <span class="tag tag-closed"><div class="i i-warning i-border"></div> Closed</span>
+          <div class="main-content-labels"> 
+            <span class="nav-label nav-label-filter">Labels:</span>
+            <span class="tag tag-red">Critical</span>
+            <span class="tag tag-blue">Bug</span>
           </div>
-        </a>
-        <div>
-          <a href="#">Jane S.</a>
-          opened task.
         </div>
-        <div>
-          <p>Titled: <a href="#">New 'About' page</a></p>
-          <p>Added labels</p> <span>Critical</span> , <span>Bug</span>
+        <div class="main-content-body">
+          <p>Nunc fringilla purus lectus, nec aliquam quam lacinia eget. Donec ornare viverra tincidunt. In ac magna scelerisque, ornare ex at, convallis sapien. Morbi tristique bibendum placerat.</p>
+          <p>Etiam iaculis ligula et placerat cursus. Aenean et dolor mollis, porta enim vitae, egestas elit. Quisque ultrices neque eu nunc pulvinar euismod. Duis finibus odio eget tristique maximus. Phasellus rhoncus magna vel turpis ultricies pharetra. Praesent interdum nisi ut diam luctus efficitur. Nulla pulvinar, est nec luctus porttitor.
+          leo, ac efficitur urna est nec orci.</p>
         </div>
-      </div>
 
-      <div class="timeine-media">
-        <a href="#" class="member-photo">
-          <div class="member-photo-border">
-            <img src="#" alt="">
-          </div>
-        </a>
-        <div>
-          <a href="#">Bob P.</a>
-          self-assigned task
-        </div>
-        <div>
-          <p>Moved task to <a href="#">Prototyping</a>.</p>
-          <p>Added design files <a href="#">About-Mobile</a>, <a href="#">About-Tablet</a>, <a href="#">About-Desktop</a></p>
-        </div>
-      </div>
-
-      <div class="timeine-media">
-        <a href="#" class="member-photo">
-          <div class="member-photo-border">
-            <img src="#" alt="">
-          </div>
-        </a>
-        <div>
-          <a href="#">Dan S.</a>
-          assigned task to
-          <a href="#" class="member-photo small">
-            <div class="member-photo-border">
+        <h2 class="main-content-subtitle">Project Files</h2>
+        <ul class="main-content-files">
+          <li class="main-content-list">
+            <div class="i-psd"></div>
+            <a href="#">desktop.psd</a> 
+            <span>(3.1 MB)</span>
+          </li>
+          <li class="main-content-list">
+            <div class="i-psd"></div>
+            <a href="#">tablet.psd</a> 
+            <span>(4.4 MB)</span>
+          </li>
+        </ul>
+        <h2 class="main-content-subtitle">Project Contacts</h2>
+        <ul>
+          <li class="main-content-list">
+            <a href="#" class="member-photo contacts">
               <img src="#" alt="">
-            </div>
-          </a>
-          <a href="#">Erica H..</a>          
-        </div>
-        <div>
-          <p>Moved task to <a href="#">Developing</a>.</p>
-        </div>
-      </div>
-
-      <div class="timeine-media">
-        <a href="#" class="member-photo">
-          <div class="member-photo-border">
-            <img src="#" alt="">
+            </a>   
+            <a href="#" class="main-content-contacts">       
+              <h4>Jane S.</h4> 
+              <span>Project Manager</span>
+            </a>
+          </li>
+          <li class="main-content-list">
+            <a href="#" class="member-photo contacts">
+              <img src="#" alt="">
+            </a>   
+            <a href="#" class="main-content-contacts">       
+              <h4>Bob P.</h4> 
+              <span>UI Designer</span>
+            </a>
+          </li>
+          <li class="main-content-list">
+            <a href="#" class="member-photo contacts">
+              <img src="#" alt="">
+            </a>   
+            <a href="#" class="main-content-contacts">       
+              <h4>Erica H.</h4> 
+              <span>Frontend Developer</span>
+            </a>
+          </li>
+          <li class="main-content-list">
+            <a href="#" class="member-photo contacts">
+              <img src="#" alt="">
+            </a>   
+            <a href="#" class="main-content-contacts">       
+              <h4>Nick T.</h4> 
+              <span>Senior Developer</span>
+            </a>
+          </li>
+        </ul>
+      </section>
+      <section class="secondary-content">
+        <div class="secondary-content-header">
+          <h1 class="secondary-content-title">Project Timeline</h1>
+          <div class="btn btn-info btn-dropdown secondary-content-filter">
+            <span>Filter View</span>
+            <div class="i i-dropdown"></div>
           </div>
-        </a>
-        <div>
-          <a href="#">Erica H.</a>
-          linked task <a href="#">#49: New SCSS standard for navs</a>.      
+          <span class="nav-label nav-label-filter">Time Open:</span>
+          <span class="secondary-content-copy">2 Hours</span>
         </div>
-        <div>
-          <p>Added branch <span>zr-about</span>. See <a href="#">commit log</a>.</p>
-          <p>Created pull request <a href="#">#98: New 'About' page PR</a>.</p>
-          <p>Moved task to <a href="#">Reviewing</a>.</p>
+
+        <div class="timeline-media">
+          <div class="timeline-times">
+            <span class="timeline-day">15 Jan 2015</span>
+            <span class="timeline-time">12:00 PM</span>
+          </div>
+          <div class="timeline-description">
+            <div class="member-photo-border">
+              <a href="#" class="member-photo">
+                <img src="#" alt="">
+              </a>
+            </div>
+            <div class="timeline-first-line">
+              <a href="#">Jane S.</a>
+              opened task.
+            </div>
+            <div>
+              <p>Titled: <a href="#">New 'About' page</a></p>
+              <p>Added labels <span class="tag tag-red">Critical</span> , <span class="tag tag-blue">Bug</span></p>
+            </div>
+          </div>
         </div>
-      </div>
 
-    </section>
+        <div class="timeline-media">
+          <div class="timeline-times">
+            <span class="timeline-day">16 Jan 2015</span>
+            <span class="timeline-time">9:57 AM</span>
+          </div>
+          <div class="member-photo-border">
+            <a href="#" class="member-photo">
+              <img src="#" alt="">
+            </a>
+          </div>
+          <div class="timeline-first-line">
+            <a href="#">Bob P.</a>
+            self-assigned task
+          </div>
+          <div>
+            <p>Moved task to <a href="#">Prototyping</a>.</p>
+            <p>Added design files <a href="#">About-Mobile</a>, <a href="#">About-Tablet</a>, <a href="#">About-Desktop</a></p>
+          </div>
+        </div>
 
+        <div class="timeline-media">
+          <div class="timeline-times">
+            <span class="timeline-day">23 Feb 2015</span>
+            <span class="timeline-time">3:11 PM</span>
+          </div>
+          <div class="member-photo-border">
+            <a href="#" class="member-photo">
+              <img src="#" alt="">
+            </a>
+          </div>
+          <div class="timeline-first-line">
+            <a href="#">Dan S.</a>
+            assigned task to
+            <div class="member-photo-border">
+              <a href="#" class="member-photo small">
+                <img src="#" alt="">
+              </a>
+            </div>
+            <a href="#">Erica H..</a>          
+          </div>
+          <div>
+            <p>Moved task to <a href="#">Developing</a>.</p>
+          </div>
+        </div>
+
+        <div class="timeline-media">
+          <div class="timeline-times">
+            <span class="timeline-day">24 Feb 2015</span>
+            <span class="timeline-time">11:59 AM</span>
+          </div>
+          <div class="member-photo-border">
+            <a href="#" class="member-photo">
+              <img src="#" alt="">
+            </a>
+          </div>
+          <div class="timeline-first-line">
+            <a href="#">Erica H.</a>
+            linked task <a href="#">#49: New SCSS standard for navs</a>.      
+          </div>
+          <div>
+            <p>Added branch <span class="tag tag-ltgray">zr-about</span>. See <a href="#">commit log</a>.</p>
+            <p>Created pull request <a href="#">#98: New 'About' page PR</a>.</p>
+            <p>Moved task to <a href="#">Reviewing</a>.</p>
+          </div>
+        </div>
+
+      </section>
+
+    
 
     <footer class="footer-main">     
       <nav class="footer-navigation">
@@ -221,8 +249,8 @@ Hello source viewer. Thanks for dropping by.
         </li>
       </ul>
     </footer>
-
   </div>
+
 
 </body>
 </html>

@@ -3,6 +3,7 @@
 
 @import "header";
 @import "footer";
+@import "single";
 
 
 /**
@@ -189,6 +190,22 @@ a {
   }
 }
 
+  .member-photo-border {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    float: left; 
+    margin-left: -62px;
+    margin-top: -7px;
+    padding: 4px;
+    position: relative;
+    .member-photo { 
+      float: left;
+      height: 32px;
+      width: 32px; 
+    }
+  }
+
 .issue-card {
   background-color: #fff;
   border: 1px solid #ddd;
@@ -260,6 +277,42 @@ a {
   .square-gray   { background-color: #cecece; }
   .square-orange { background-color: #e58945; }
 
+.tag {
+  border-radius: 3px;
+  font-weight: 500;
+  margin-right: 1px;
+  padding: 4px;
+}
+
+  .tag-red { 
+    background-color: #e54545; 
+    color: #fff;
+  }
+  .tag-blue { 
+    background-color: #45a3e6; 
+    color: #fff;
+  }
+  .tag-ltgray { 
+    background-color: #dddddf; 
+    color: #222;
+  }
+  .tag-closed {
+    background-color: $brand-primary;
+    box-shadow: inset 0px -3px 0 #e23f3e;
+    color: #fff;
+    padding: 4px 8px;
+    .i-warning {
+      margin-left: 9px;
+      margin-right: 12px;
+    }
+    .i-border:before { 
+      height: 20px;
+      left: -8px;
+      top: -4px;
+      width: 20px;
+    }
+    @media #{$md-screen} { padding: 8px 14px; }
+  }
 
 /**
  * .nav-label
@@ -325,6 +378,12 @@ $nav-label-right: 0.6875em; /* 1 */
     width: 16px;
   }
 
+  .i-warning {
+    background-position: 0 -25px;
+    height: 12px;
+    width: 4px;
+  }
+
   .i-border {
     &:before {
       border: 2px solid #fff;
@@ -339,4 +398,14 @@ $nav-label-right: 0.6875em; /* 1 */
   .i-dropdown {
     height: 6px;
     width: 12px;
+  }
+
+  .i-psd {
+    background-image: url("../img/psd.png");
+    display: inline-block;
+    height: 32px;
+    margin-right: 0.75em;
+    position: relative;
+    width: 28px;
+    top: 10px;
   }
